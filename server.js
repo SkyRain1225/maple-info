@@ -33,8 +33,9 @@ app.get('/', async (req, res) => {
           const server = $('.search_com_chk > .left > dl > dt > a > img').attr('src');
           const job = $('.search_com_chk > .left > dl > dd').text();
           const level = $('.search_com_chk > td:eq(2)').text();
+          const exp = $('.search_com_chk > td:eq(3)').text();
           const guild = $('.search_com_chk > td:eq(5)').text();
-          const votes = $('.search_com_chk > td:eq(4)').text();
+          const vote = $('.search_com_chk > td:eq(4)').text();
 
           result.push({
             streamer: streamer,
@@ -43,8 +44,9 @@ app.get('/', async (req, res) => {
             server,
             job,
             level,
+            exp,
             guild,
-            votes,
+            vote,
           });
         });
       }
