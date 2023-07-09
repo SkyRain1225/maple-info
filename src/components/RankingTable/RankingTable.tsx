@@ -41,7 +41,7 @@ const RankingTable = ({
 
   return (
     <S.Container>
-      <div>{number}</div>
+      <div className="ranking_number">{number}</div>
       <div className="left_info">
         <div className="user_avatar">
           <img className="avatar_img" src={avatar} alt="캐릭터 BG" />
