@@ -6,6 +6,7 @@ export const colors = {
   blue: '#bac4d9',
   blackgrey: '#333333',
   lightgrey: '#e7e7e7',
+  darkgrey: '#2f3238',
 };
 
 export const theme = {

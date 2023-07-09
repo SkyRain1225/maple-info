@@ -10,6 +10,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 1.5rem;
+    padding-left: 0.5rem;
 
     > .user_info {
       display: flex;
@@ -49,6 +50,13 @@ export const Container = styled.div`
     }
   }
 
+  > .user_exp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+  }
   > div {
     display: flex;
     align-items: center;

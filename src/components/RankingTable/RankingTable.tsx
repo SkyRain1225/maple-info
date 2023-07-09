@@ -57,7 +57,9 @@ const RankingTable = ({
         </div>
       </div>
       <div>{level}</div>
-      <div>{((parseInt(exp) / parseInt(expPercentage!)) * 100).toFixed(2)}%</div>
+      <div className="user_exp">
+        ({((parseInt(exp) / parseInt(expPercentage!)) * 100).toFixed(2)}%)
+      </div>
       <div>{vote}</div>
       <div>{guild}</div>
     </S.Container>

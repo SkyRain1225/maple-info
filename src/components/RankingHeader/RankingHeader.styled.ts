@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 1200px;
   height: 44px;
   background-color: ${({ theme }) => theme.colors.bluegrey};
   border-top: 1px solid ${({ theme }) => theme.colors.blue};

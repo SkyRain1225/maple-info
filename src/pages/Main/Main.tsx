@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { RankingHeader, RankingTable } from '~/components';
+import { Footer, RankingHeader, RankingTable } from '~/components';
 
 import * as S from './Main.styled';
 
@@ -78,6 +78,7 @@ const Main = () => {
           expinfo={expinfo}
         />
       ))}
+      <Footer />
     </S.Container>
   );
 };
